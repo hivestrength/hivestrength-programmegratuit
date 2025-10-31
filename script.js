@@ -1,24 +1,3 @@
-{
-  "name": "Hive Strength",
-  "short_name": "Hive",
-  "icons": [
-    {
-      "src": "/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "theme_color": "#000000",
-  "background_color": "#000000",
-  "display": "standalone"
-}
-
-
 // submit form to Google Apps Script
 document.getElementById('subscribeForm').addEventListener('submit', async function(e){
   e.preventDefault();
