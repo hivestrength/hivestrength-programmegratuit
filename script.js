@@ -4,6 +4,14 @@ document.getElementById('subscribeForm').addEventListener('submit', async functi
   const name = document.getElementById('name').value.trim();
   const email = document.getElementById('email').value.trim();
   const msg = document.getElementById('form-msg');
+  const rgpd = document.getElementById('rgpdConsent');
+
+  if (!rgpd.checked) {
+    msg.textContent = "Vous devez accepter la politique de confidentialité.";
+    msg.style.color = "#ffb3b3";
+    return;
+  }
+  
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyXATQQwmfBDQ0wqjIFfJHNhwf9JtHXLu6cdKJOKmaQmxUGh7lVBKDuzwu34sKNLtNb0w/exec';
 
   // validation
