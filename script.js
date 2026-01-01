@@ -9,6 +9,7 @@ document.getElementById('subscribeForm').addEventListener('submit', async functi
   if (!rgpd.checked) {
     msg.textContent = "Vous devez accepter la politique de confidentialité.";
     msg.style.color = "#ffb3b3";
+    rgpd.focus();
     return;
   }
   
