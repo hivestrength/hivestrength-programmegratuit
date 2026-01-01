@@ -178,6 +178,10 @@ body{
   text-decoration: underline;
 }
 
+.rgpd input:focus {
+  outline: 2px solid var(--accent);
+}
+
 .form-msg{
   margin-top:8px;
   color:var(--muted);
