@@ -175,7 +175,9 @@ body{
 
 .rgpd a {
   color: var(--accent);
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: 500;
+  opacity: 0.85;
 }
 
 .rgpd input:focus {
@@ -275,12 +277,15 @@ body{
 }
 
 .legal-links a {
-  color: var(--muted);
+  color: var(--accent);        /* jaune Hive Strength */
   text-decoration: none;
+  font-weight: 500;
+  opacity: 0.85;
 }
 
 .legal-links a:hover {
-  color: var(--accent);
+  text-decoration: underline;
+  opacity: 1;
 }
 
 .legal-links span {
