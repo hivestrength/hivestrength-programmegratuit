@@ -264,6 +264,25 @@ body{
   margin:0 8px;
 }
 
+.legal-links {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+
+.legal-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.legal-links a:hover {
+  color: var(--accent);
+}
+
+.legal-links span {
+  margin: 0 6px;
+}
+
 @media (max-width:900px){
   .columns{
     flex-direction:column;
